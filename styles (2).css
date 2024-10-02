@@ -1,0 +1,96 @@
+/* Background Image for the whole page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('TAL-dubai-DUBAITG1123-17390625954c4be3902a440d8fffde67 1.png'); 
+    background-size: cover;
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image in place when scrolling */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logo as text, in the top left */
+.logo-text {
+    font-size: 50px; 
+    color: white;
+    text-decoration: none;
+    font-family: "Just Another Hand";
+}
+
+/* Navbar container */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* This makes the logo go left, links go right */
+    align-items: center;
+    position: relative;
+    width: 100%;
+    z-index: 1; 
+}
+
+/* Navigation links */
+.nav-links a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-links a:hover {
+    background-color: #9eca06;
+}
+
+.active {
+    background-color: #9eca06;
+}
+
+/* Center content in the middle of the page */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Takes full viewport minus navbar height */
+    text-align: center;
+    z-index: 0;
+}
+
+.about-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.about-box h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.about-box p {
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+}
+
+.explore-button {
+    background-color: #9eca06;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #7ea105;
+}
