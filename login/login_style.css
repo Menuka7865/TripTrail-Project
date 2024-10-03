@@ -1,18 +1,15 @@
-/* Reset some default styles */
 body, h2, form, input, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f4f8;
     background-image: url('pexels-victor-lavaud-302543-3361480 1.png');
 }
 
-/* Header styles */
 .nav-bar{
     display: flex;
     align-items: right;
@@ -27,7 +24,7 @@ body {
     font-family: "Just Another Hand", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 45pt;
+    font-size: 64pt;
     -webkit-text-stroke: 0.2px black;
 }    
 
@@ -44,7 +41,7 @@ body {
     padding: 0px 16px;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 24pt;
+    font-size: 20pt;
     color: white;
     -webkit-text-stroke: 0.5px black;
     display: inline-flex;
