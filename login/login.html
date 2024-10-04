@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TripTrail Login</title>
-    <link rel="stylesheet" href="login_style.css">    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
     <header>
         <nav class="nav-bar">
-            <div class="logo">TripTrail</div>
+            <div class="logo"><a href="#">TripTrail</a></div>
             <ul class="nav-links">
             <a href="../home_page/home.html">Home</a>
             <a href="../blog_page/blog.html">Blog</a>
             <a href="../about_us/about_us.html">About Us</a>
             <a href="../contact_us/contactUs.html">Contact Us</a>
-            <a href="../login/login.html">Login</a></li>
-            </ul>
+            <a href="../login/login.html">Login</a>
+        </ul>
+
         </nav>
     </header>
 
     <div class="login-container">
         <div class="login-box">
-            <h2>Login Here</h2>
+            <h2><span style="font-family: russo one;">Login </span><br><span style="font-family: saira stencil one;">Here</span></h2>
+        </div>
+        <div class="form-container">
             <form>
                 <div class="input-group">
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username">
                 </div>
+                <div class="line"></div>
                 <div class="input-group">
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password">
@@ -41,3 +42,4 @@
     </div>
 </body>
 </html>
+
